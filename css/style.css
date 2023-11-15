@@ -1,0 +1,189 @@
+.g-color {
+    background: linear-gradient(90deg, rgba(203, 30, 212, 0.791) 20%, rgba(54, 230, 243, 0.894)100%);
+}
+
+.font-per {
+
+    font-family: Luckiest guy;
+}
+
+.cont-img {
+    width: 100px;
+    height: 190px;
+}
+
+.na-set {
+    font-weight: 700;
+    font-size: 20px;
+    background: linear-gradient(90deg, rgba(203, 30, 212, 0.341) 20%, rgba(54, 230, 243, 0.335)100%);
+}
+
+.font-cole {
+    font-family: nothing you could do;
+    font-size: 40px;
+
+}
+
+.format-font {
+    font-family: parisienne;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.f-color {
+    background-color: rgba(241, 228, 54, 0.606);
+}
+
+.nav-link:hover {
+    color: rgb(197, 201, 201);
+    background-color: rgb(152, 43, 203);
+    border-radius: 7px;
+    box-shadow: 0px 0px 15px rgb(27, 27, 26);
+    rotate: -3deg;
+    transition-duration: 0.4s;
+    transition-property: all;
+}
+
+.nav-link:active {
+    box-shadow: 0px 0px 10px rgb(27, 27, 26) inset;
+}
+
+.active {
+    background-color: rgba(0, 211, 155, 0.813);
+    border-radius: 7px;
+    font-size: 20px;
+    rotate: -3deg;
+}
+
+.active-carousel {
+    background-color: rgb(13, 13, 12) !important;
+    rotate: 0deg !important;
+}
+
+
+
+input[type=checkbox] {
+    transform: scale(1.5);
+}
+
+.pers-link {
+    background-color: aliceblue;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 700;
+    color: rgb(11, 11, 11);
+}
+
+.loader {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    background: url('/img/otros/loading.gif') 50% 50% no-repeat rgb(249, 249, 249);
+    opacity: 0.8;
+}
+
+.arrow-info {
+    text-decoration: none;
+}
+
+.arrow-info:hover {
+    background: rgb(255, 221, 0);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 100px;
+    padding-right: 100px;
+    border-radius: 10px;
+    text-decoration: none;
+    transition: padding-left, padding-right, padding-top, padding-bottom;
+    transition-duration: 0.9s, 0.9s, 0.5s, 0.5s;
+}
+
+.button-link {
+    display: block;
+    text-decoration: none;
+}
+
+.resalto {
+    font-weight: 700;
+}
+
+.link-info {
+    background-color: rgb(156, 73, 14);
+    font-size: larger;
+    text-decoration: none;
+}
+
+.link-info:hover {
+    background-color: rgb(170, 85, 235);
+
+    transition-duration: 0.8s;
+}
+
+.p-nombre-color {
+    color: white;
+}
+
+.separator {
+    width: 40%;
+    height: 5px;
+    background-color: blanchedalmond;
+}
+
+.separator2 {
+    width: 25%;
+    height: 5px;
+    background-color: blanchedalmond;
+}
+
+.separator3 {
+    width: 10%;
+    height: 5px;
+    background-color: blanchedalmond;
+}
+
+.separator4 {
+    width: 55%;
+    height: 5px;
+    background-color: blanchedalmond;
+}
+
+.name-slide {
+    animation-duration: 0.8s;
+    animation-name: slidein;
+
+}
+
+.age-slide {
+    animation-duration: 1s;
+    animation-name: slideout;
+
+}
+
+@keyframes slidein {
+    from {
+        margin-left: 120%;
+        width: 50%;
+
+    }
+
+    to {
+        margin-left: 0%;
+        width: 100%;
+
+    }
+}
+
+@keyframes slideout {
+    from {
+        margin-right: 0%;
+        width: 50%;
+    }
+
+    to {
+        margin-right: 100%;
+        width: 100%;
+    }
+}
